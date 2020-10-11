@@ -16,10 +16,11 @@ struct ContentView: View {
             Button(action: {}) {
                 Text("Tap!!")
                     .font(.footnote)
-                    .fontWeight(.thin)
+                    .fontWeight(.bold)
                     .foregroundColor(Color.black)
                     .frame(width:70,height: 20)
-                    .border(Color.gray)
+                    .border(Color.red)
+                    .border(Color.red, width: 3)
             }
             
         }

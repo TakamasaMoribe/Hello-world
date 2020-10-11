@@ -13,9 +13,15 @@ struct ContentView: View {
             Text("Hello, SwiftUI!")
                 .font(.largeTitle)
                 .padding().foregroundColor(.red)
-            Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+            Button(action: {}) {
+                Text("Tap!!")
+                    .font(.footnote)
+                    .fontWeight(.thin)
+                    .foregroundColor(Color.black)
+                    .frame(width:70,height: 20)
+                    .border(Color.gray)
             }
+            
         }
     }
 }
